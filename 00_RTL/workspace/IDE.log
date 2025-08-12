@@ -1,0 +1,2456 @@
+00:18:30 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+00:18:39 INFO  : Registering command handlers for Vitis TCF services
+00:18:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:18:40 INFO  : Platform repository initialization has completed.
+00:18:43 INFO  : XSCT server has started successfully.
+00:18:43 INFO  : Successfully done setting XSCT server connection channel  
+00:18:43 INFO  : plnx-install-location is set to ''
+00:18:45 INFO  : Successfully done setting workspace for the tool. 
+00:18:45 INFO  : Successfully done query RDI_DATADIR 
+00:19:31 INFO  : Result from executing command 'getProjects': design_1_wrapper
+00:19:31 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:19:32 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:19:33 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+00:19:42 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+00:21:57 INFO  : Result from executing command 'getProjects': design_1_wrapper
+00:21:57 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:21:58 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:22:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:22:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+00:22:26 INFO  : 'jtag frequency' command is executed.
+00:22:26 INFO  : Context for 'APU' is selected.
+00:22:26 INFO  : System reset is completed.
+00:22:29 INFO  : 'after 3000' command is executed.
+00:22:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+00:22:32 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:22:32 INFO  : Context for 'APU' is selected.
+00:22:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:22:32 INFO  : 'configparams force-mem-access 1' command is executed.
+00:22:32 INFO  : Context for 'APU' is selected.
+00:22:32 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:22:32 INFO  : 'ps7_init' command is executed.
+00:22:32 INFO  : 'ps7_post_config' command is executed.
+00:22:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:22:32 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:22:32 INFO  : 'configparams force-mem-access 0' command is executed.
+00:22:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:22:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:22:32 INFO  : 'con' command is executed.
+00:22:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:22:32 INFO  : Disconnected from the channel tcfchan#2.
+00:22:59 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:23:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:23:32 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+00:23:32 INFO  : 'jtag frequency' command is executed.
+00:23:32 INFO  : Context for 'APU' is selected.
+00:23:32 INFO  : System reset is completed.
+00:23:35 INFO  : 'after 3000' command is executed.
+00:23:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+00:23:37 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:23:37 INFO  : Context for 'APU' is selected.
+00:23:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:23:37 INFO  : 'configparams force-mem-access 1' command is executed.
+00:23:37 INFO  : Context for 'APU' is selected.
+00:23:37 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:23:37 INFO  : 'ps7_init' command is executed.
+00:23:37 INFO  : 'ps7_post_config' command is executed.
+00:23:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:23:38 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:23:38 INFO  : 'configparams force-mem-access 0' command is executed.
+00:23:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:23:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:23:38 INFO  : 'con' command is executed.
+00:23:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:23:38 INFO  : Disconnected from the channel tcfchan#3.
+00:40:48 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+00:40:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:40:52 INFO  : XSCT server has started successfully.
+00:40:52 INFO  : Successfully done setting XSCT server connection channel  
+00:40:52 INFO  : plnx-install-location is set to ''
+00:40:52 INFO  : Successfully done setting workspace for the tool. 
+00:41:45 INFO  : Registering command handlers for Vitis TCF services
+00:41:45 INFO  : Successfully done query RDI_DATADIR 
+00:41:46 INFO  : Platform repository initialization has completed.
+00:42:53 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:43:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:43:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+00:43:16 INFO  : 'jtag frequency' command is executed.
+00:43:16 INFO  : Context for 'APU' is selected.
+00:43:16 INFO  : System reset is completed.
+00:43:19 INFO  : 'after 3000' command is executed.
+00:43:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+00:43:21 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:43:21 INFO  : Context for 'APU' is selected.
+00:43:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:43:21 INFO  : 'configparams force-mem-access 1' command is executed.
+00:43:21 INFO  : Context for 'APU' is selected.
+00:43:21 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:43:22 INFO  : 'ps7_init' command is executed.
+00:43:22 INFO  : 'ps7_post_config' command is executed.
+00:43:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:43:22 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:43:22 INFO  : 'configparams force-mem-access 0' command is executed.
+00:43:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:43:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:43:22 INFO  : 'con' command is executed.
+00:43:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:43:22 INFO  : Disconnected from the channel tcfchan#1.
+10:57:42 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+10:57:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+10:57:46 INFO  : Registering command handlers for Vitis TCF services
+10:57:47 INFO  : XSCT server has started successfully.
+10:57:48 INFO  : Platform repository initialization has completed.
+10:57:50 INFO  : Successfully done setting XSCT server connection channel  
+10:57:50 INFO  : plnx-install-location is set to ''
+10:57:50 INFO  : Successfully done query RDI_DATADIR 
+10:57:50 INFO  : Successfully done setting workspace for the tool. 
+14:33:14 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+14:33:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+14:33:18 INFO  : Registering command handlers for Vitis TCF services
+14:33:18 INFO  : XSCT server has started successfully.
+14:33:19 INFO  : Platform repository initialization has completed.
+14:33:21 INFO  : plnx-install-location is set to ''
+14:33:21 INFO  : Successfully done setting XSCT server connection channel  
+14:33:21 INFO  : Successfully done query RDI_DATADIR 
+14:33:21 INFO  : Successfully done setting workspace for the tool. 
+14:33:46 INFO  : Result from executing command 'getProjects': design_1_wrapper
+14:33:46 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:33:47 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:34:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+14:34:05 INFO  : 'jtag frequency' command is executed.
+14:34:05 INFO  : Context for 'APU' is selected.
+14:34:05 INFO  : System reset is completed.
+14:34:08 INFO  : 'after 3000' command is executed.
+14:34:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+14:34:11 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+14:34:11 INFO  : Context for 'APU' is selected.
+14:34:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:34:11 INFO  : 'configparams force-mem-access 1' command is executed.
+14:34:11 INFO  : Context for 'APU' is selected.
+14:34:11 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+14:34:11 INFO  : 'ps7_init' command is executed.
+14:34:11 INFO  : 'ps7_post_config' command is executed.
+14:34:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:34:11 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:34:11 INFO  : 'configparams force-mem-access 0' command is executed.
+14:34:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:34:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:34:11 INFO  : 'con' command is executed.
+14:34:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:34:11 INFO  : Disconnected from the channel tcfchan#2.
+14:34:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+14:34:58 INFO  : 'jtag frequency' command is executed.
+14:34:58 INFO  : Context for 'APU' is selected.
+14:34:58 INFO  : System reset is completed.
+14:35:01 INFO  : 'after 3000' command is executed.
+14:35:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+14:35:03 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+14:35:03 INFO  : Context for 'APU' is selected.
+14:35:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:35:03 INFO  : 'configparams force-mem-access 1' command is executed.
+14:35:03 INFO  : Context for 'APU' is selected.
+14:35:03 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+14:35:04 INFO  : 'ps7_init' command is executed.
+14:35:04 INFO  : 'ps7_post_config' command is executed.
+14:35:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:35:04 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:35:04 INFO  : 'configparams force-mem-access 0' command is executed.
+14:35:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:35:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:35:04 INFO  : 'con' command is executed.
+14:35:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:35:04 INFO  : Disconnected from the channel tcfchan#3.
+15:26:40 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+15:26:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+15:26:44 INFO  : XSCT server has started successfully.
+15:26:44 INFO  : plnx-install-location is set to ''
+15:26:44 INFO  : Successfully done setting XSCT server connection channel  
+15:26:44 INFO  : Successfully done setting workspace for the tool. 
+15:26:56 INFO  : Registering command handlers for Vitis TCF services
+15:26:57 INFO  : Successfully done query RDI_DATADIR 
+15:26:57 INFO  : Platform repository initialization has completed.
+15:27:01 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:27:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:46 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+15:27:46 INFO  : 'jtag frequency' command is executed.
+15:27:46 INFO  : Context for 'APU' is selected.
+15:27:47 INFO  : System reset is completed.
+15:27:50 INFO  : 'after 3000' command is executed.
+15:27:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+15:27:52 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+15:27:52 INFO  : Context for 'APU' is selected.
+15:27:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:27:52 INFO  : 'configparams force-mem-access 1' command is executed.
+15:27:52 INFO  : Context for 'APU' is selected.
+15:27:52 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+15:27:52 INFO  : 'ps7_init' command is executed.
+15:27:52 INFO  : 'ps7_post_config' command is executed.
+15:27:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:52 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:27:52 INFO  : 'configparams force-mem-access 0' command is executed.
+15:27:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:27:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:27:52 INFO  : 'con' command is executed.
+15:27:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:27:52 INFO  : Disconnected from the channel tcfchan#1.
+15:41:55 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+15:41:56 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+15:41:59 INFO  : XSCT server has started successfully.
+15:41:59 INFO  : plnx-install-location is set to ''
+15:41:59 INFO  : Successfully done setting XSCT server connection channel  
+15:41:59 INFO  : Successfully done setting workspace for the tool. 
+15:42:02 INFO  : Registering command handlers for Vitis TCF services
+15:42:02 INFO  : Successfully done query RDI_DATADIR 
+15:42:03 INFO  : Platform repository initialization has completed.
+15:42:08 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:42:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:39 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+15:42:39 INFO  : 'jtag frequency' command is executed.
+15:42:39 INFO  : Context for 'APU' is selected.
+15:42:39 INFO  : System reset is completed.
+15:42:42 INFO  : 'after 3000' command is executed.
+15:42:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+15:42:44 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+15:42:44 INFO  : Context for 'APU' is selected.
+15:42:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:42:44 INFO  : 'configparams force-mem-access 1' command is executed.
+15:42:44 INFO  : Context for 'APU' is selected.
+15:42:44 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+15:42:45 INFO  : 'ps7_init' command is executed.
+15:42:45 INFO  : 'ps7_post_config' command is executed.
+15:42:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:42:45 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:42:45 INFO  : 'configparams force-mem-access 0' command is executed.
+15:42:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:42:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:42:45 INFO  : 'con' command is executed.
+15:42:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:42:45 INFO  : Disconnected from the channel tcfchan#1.
+15:43:48 INFO  : Result from executing command 'removePlatformRepo': 
+15:44:09 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:44:09 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:44:10 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:45:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+15:45:05 INFO  : 'jtag frequency' command is executed.
+15:45:05 INFO  : Context for 'APU' is selected.
+15:45:05 INFO  : System reset is completed.
+15:45:08 INFO  : 'after 3000' command is executed.
+15:45:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+15:45:11 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+15:45:11 INFO  : Context for 'APU' is selected.
+15:45:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:45:11 INFO  : 'configparams force-mem-access 1' command is executed.
+15:45:11 INFO  : Context for 'APU' is selected.
+15:45:11 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+15:45:11 INFO  : 'ps7_init' command is executed.
+15:45:11 INFO  : 'ps7_post_config' command is executed.
+15:45:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:45:11 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:45:11 INFO  : 'configparams force-mem-access 0' command is executed.
+15:45:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:45:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:45:11 INFO  : 'con' command is executed.
+15:45:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:45:11 INFO  : Disconnected from the channel tcfchan#4.
+15:45:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:35 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+15:45:35 INFO  : 'jtag frequency' command is executed.
+15:45:35 INFO  : Context for 'APU' is selected.
+15:45:35 INFO  : System reset is completed.
+15:45:38 INFO  : 'after 3000' command is executed.
+15:45:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+15:45:41 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+15:45:41 INFO  : Context for 'APU' is selected.
+15:45:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:45:41 INFO  : 'configparams force-mem-access 1' command is executed.
+15:45:41 INFO  : Context for 'APU' is selected.
+15:45:41 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+15:45:41 INFO  : 'ps7_init' command is executed.
+15:45:41 INFO  : 'ps7_post_config' command is executed.
+15:45:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:45:41 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:45:41 INFO  : 'configparams force-mem-access 0' command is executed.
+15:45:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:45:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:45:41 INFO  : 'con' command is executed.
+15:45:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:45:41 INFO  : Disconnected from the channel tcfchan#5.
+15:56:13 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+15:56:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+15:56:17 INFO  : XSCT server has started successfully.
+15:56:17 INFO  : plnx-install-location is set to ''
+15:56:17 INFO  : Successfully done setting XSCT server connection channel  
+15:56:17 INFO  : Successfully done setting workspace for the tool. 
+15:56:21 INFO  : Registering command handlers for Vitis TCF services
+15:56:21 INFO  : Successfully done query RDI_DATADIR 
+15:56:22 INFO  : Platform repository initialization has completed.
+15:56:33 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:56:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:56:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+15:56:51 INFO  : 'jtag frequency' command is executed.
+15:56:51 INFO  : Context for 'APU' is selected.
+15:56:51 INFO  : System reset is completed.
+15:56:54 INFO  : 'after 3000' command is executed.
+15:56:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+15:56:56 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+15:56:56 INFO  : Context for 'APU' is selected.
+15:56:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:56:56 INFO  : 'configparams force-mem-access 1' command is executed.
+15:56:56 INFO  : Context for 'APU' is selected.
+15:56:56 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+15:56:56 INFO  : 'ps7_init' command is executed.
+15:56:56 INFO  : 'ps7_post_config' command is executed.
+15:56:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:56:57 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:56:57 INFO  : 'configparams force-mem-access 0' command is executed.
+15:56:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:56:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:56:57 INFO  : 'con' command is executed.
+15:56:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:56:57 INFO  : Disconnected from the channel tcfchan#1.
+16:44:45 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+16:44:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+16:44:49 INFO  : XSCT server has started successfully.
+16:44:49 INFO  : plnx-install-location is set to ''
+16:44:49 INFO  : Successfully done setting XSCT server connection channel  
+16:44:49 INFO  : Successfully done setting workspace for the tool. 
+16:44:50 INFO  : Registering command handlers for Vitis TCF services
+16:44:50 INFO  : Successfully done query RDI_DATADIR 
+16:44:51 INFO  : Platform repository initialization has completed.
+16:45:03 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+16:45:19 INFO  : Result from executing command 'removePlatformRepo': 
+16:45:39 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:45:39 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:45:40 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+16:45:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:45:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+16:45:58 INFO  : 'jtag frequency' command is executed.
+16:45:58 INFO  : Context for 'APU' is selected.
+16:45:58 INFO  : System reset is completed.
+16:46:01 INFO  : 'after 3000' command is executed.
+16:46:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+16:46:04 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+16:46:04 INFO  : Context for 'APU' is selected.
+16:46:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:46:04 INFO  : 'configparams force-mem-access 1' command is executed.
+16:46:04 INFO  : Context for 'APU' is selected.
+16:46:04 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+16:46:04 INFO  : 'ps7_init' command is executed.
+16:46:04 INFO  : 'ps7_post_config' command is executed.
+16:46:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:04 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:46:04 INFO  : 'configparams force-mem-access 0' command is executed.
+16:46:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:46:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:46:04 INFO  : 'con' command is executed.
+16:46:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:46:04 INFO  : Disconnected from the channel tcfchan#3.
+23:24:42 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+23:24:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+23:24:46 INFO  : XSCT server has started successfully.
+23:24:46 INFO  : Successfully done setting XSCT server connection channel  
+23:24:46 INFO  : plnx-install-location is set to ''
+23:24:46 INFO  : Successfully done setting workspace for the tool. 
+23:24:47 INFO  : Registering command handlers for Vitis TCF services
+23:24:48 INFO  : Platform repository initialization has completed.
+23:24:49 INFO  : Successfully done query RDI_DATADIR 
+23:25:00 INFO  : Result from executing command 'removePlatformRepo': 
+23:25:23 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+23:25:43 INFO  : Result from executing command 'getProjects': design_1_wrapper
+23:25:43 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:25:44 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+23:26:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:26:34 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+23:26:34 INFO  : 'jtag frequency' command is executed.
+23:26:34 INFO  : Context for 'APU' is selected.
+23:26:34 INFO  : System reset is completed.
+23:26:37 INFO  : 'after 3000' command is executed.
+23:26:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+23:26:39 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+23:26:39 INFO  : Context for 'APU' is selected.
+23:26:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+23:26:39 INFO  : 'configparams force-mem-access 1' command is executed.
+23:26:39 INFO  : Context for 'APU' is selected.
+23:26:39 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+23:26:39 INFO  : 'ps7_init' command is executed.
+23:26:39 INFO  : 'ps7_post_config' command is executed.
+23:26:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:40 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:26:40 INFO  : 'configparams force-mem-access 0' command is executed.
+23:26:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:26:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:40 INFO  : 'con' command is executed.
+23:26:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:26:40 INFO  : Disconnected from the channel tcfchan#4.
+00:05:46 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+00:05:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:05:50 INFO  : XSCT server has started successfully.
+00:05:50 INFO  : Successfully done setting XSCT server connection channel  
+00:05:50 INFO  : plnx-install-location is set to ''
+00:05:50 INFO  : Successfully done setting workspace for the tool. 
+00:06:11 INFO  : Registering command handlers for Vitis TCF services
+00:06:11 INFO  : Successfully done query RDI_DATADIR 
+00:06:11 INFO  : Platform repository initialization has completed.
+00:07:46 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1
+00:07:46 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:07:47 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:07:48 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+00:07:57 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+00:08:50 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1
+00:08:50 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:08:51 INFO  : Checking for BSP changes to sync application flags for project 'dsd'...
+00:09:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:09:10 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+00:09:10 INFO  : 'jtag frequency' command is executed.
+00:09:10 INFO  : Context for 'APU' is selected.
+00:09:11 INFO  : System reset is completed.
+00:09:14 INFO  : 'after 3000' command is executed.
+00:09:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+00:09:16 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:09:16 INFO  : Context for 'APU' is selected.
+00:09:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:09:16 INFO  : 'configparams force-mem-access 1' command is executed.
+00:09:16 INFO  : Context for 'APU' is selected.
+00:09:16 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:09:16 INFO  : 'ps7_init' command is executed.
+00:09:16 INFO  : 'ps7_post_config' command is executed.
+00:09:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:09:16 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:09:16 INFO  : 'configparams force-mem-access 0' command is executed.
+00:09:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:09:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:09:16 INFO  : 'con' command is executed.
+00:09:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:09:16 INFO  : Disconnected from the channel tcfchan#2.
+00:43:31 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+00:43:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:43:35 INFO  : XSCT server has started successfully.
+00:43:35 INFO  : Successfully done setting XSCT server connection channel  
+00:43:35 INFO  : plnx-install-location is set to ''
+00:43:35 INFO  : Successfully done setting workspace for the tool. 
+00:43:36 INFO  : Registering command handlers for Vitis TCF services
+00:43:36 INFO  : Successfully done query RDI_DATADIR 
+00:43:37 INFO  : Platform repository initialization has completed.
+00:43:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:43:54 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:44:57 INFO  : Result from executing command 'getProjects': design_1_wrapper
+00:44:57 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:44:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:44:59 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+00:45:07 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+00:45:37 INFO  : Result from executing command 'getProjects': design_1_wrapper
+00:45:37 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:45:39 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:46:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:46:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+00:46:47 INFO  : 'jtag frequency' command is executed.
+00:46:47 INFO  : Context for 'APU' is selected.
+00:46:47 INFO  : System reset is completed.
+00:46:50 INFO  : 'after 3000' command is executed.
+00:46:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+00:46:52 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:46:52 INFO  : Context for 'APU' is selected.
+00:46:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:46:53 INFO  : 'configparams force-mem-access 1' command is executed.
+00:46:53 INFO  : Context for 'APU' is selected.
+00:46:53 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:46:53 INFO  : 'ps7_init' command is executed.
+00:46:53 INFO  : 'ps7_post_config' command is executed.
+00:46:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:46:53 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:46:53 INFO  : 'configparams force-mem-access 0' command is executed.
+00:46:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:46:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:46:53 INFO  : 'con' command is executed.
+00:46:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:46:53 INFO  : Disconnected from the channel tcfchan#2.
+13:10:07 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+13:10:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+13:10:12 INFO  : Registering command handlers for Vitis TCF services
+13:10:12 INFO  : XSCT server has started successfully.
+13:10:13 INFO  : Platform repository initialization has completed.
+13:10:15 INFO  : plnx-install-location is set to ''
+13:10:15 INFO  : Successfully done setting XSCT server connection channel  
+13:10:15 INFO  : Successfully done query RDI_DATADIR 
+13:10:15 INFO  : Successfully done setting workspace for the tool. 
+13:13:06 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:13:37 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:41:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+13:41:06 INFO  : 'jtag frequency' command is executed.
+13:41:06 INFO  : Context for 'APU' is selected.
+13:41:06 INFO  : System reset is completed.
+13:41:09 INFO  : 'after 3000' command is executed.
+13:41:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+13:41:12 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+13:41:12 INFO  : Context for 'APU' is selected.
+13:41:12 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:41:12 INFO  : 'configparams force-mem-access 1' command is executed.
+13:41:12 INFO  : Context for 'APU' is selected.
+13:41:12 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+13:41:12 INFO  : 'ps7_init' command is executed.
+13:41:12 INFO  : 'ps7_post_config' command is executed.
+13:41:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:41:12 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:41:12 INFO  : 'configparams force-mem-access 0' command is executed.
+13:41:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:41:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:41:12 INFO  : 'con' command is executed.
+13:41:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:41:12 INFO  : Disconnected from the channel tcfchan#1.
+13:42:38 DEBUG : Logs will be stored at 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/IDE.log'.
+13:42:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\junoh\vivado23\DSD25_Termprj\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+13:42:42 INFO  : XSCT server has started successfully.
+13:42:42 INFO  : Successfully done setting XSCT server connection channel  
+13:42:42 INFO  : plnx-install-location is set to ''
+13:42:42 INFO  : Successfully done setting workspace for the tool. 
+13:42:43 INFO  : Registering command handlers for Vitis TCF services
+13:42:44 INFO  : Platform repository initialization has completed.
+13:42:44 INFO  : Successfully done query RDI_DATADIR 
+13:42:58 INFO  : Result from executing command 'removePlatformRepo': 
+13:43:20 INFO  : Result from executing command 'getProjects': design_1_wrapper
+13:43:20 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+13:43:21 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:43:33 INFO  : Result from executing command 'removePlatformRepo': 
+13:43:55 INFO  : Result from executing command 'getProjects': design_1_wrapper
+13:43:55 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+13:43:56 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:44:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:14 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+13:44:14 INFO  : 'jtag frequency' command is executed.
+13:44:14 INFO  : Context for 'APU' is selected.
+13:44:14 INFO  : System reset is completed.
+13:44:17 INFO  : 'after 3000' command is executed.
+13:44:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+13:44:19 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+13:44:19 INFO  : Context for 'APU' is selected.
+13:44:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:44:19 INFO  : 'configparams force-mem-access 1' command is executed.
+13:44:19 INFO  : Context for 'APU' is selected.
+13:44:19 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+13:44:20 INFO  : 'ps7_init' command is executed.
+13:44:20 INFO  : 'ps7_post_config' command is executed.
+13:44:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:44:20 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:44:20 INFO  : 'configparams force-mem-access 0' command is executed.
+13:44:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:44:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:44:20 INFO  : 'con' command is executed.
+13:44:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:44:20 INFO  : Disconnected from the channel tcfchan#5.
+13:53:41 INFO  : Result from executing command 'removePlatformRepo': 
+14:11:27 INFO  : Result from executing command 'getProjects': design_1_wrapper
+14:11:28 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:11:29 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:14:01 INFO  : Result from executing command 'removePlatformRepo': 
+14:14:31 INFO  : Result from executing command 'getProjects': design_1_wrapper
+14:14:31 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:14:32 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:14:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:14:56 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+14:14:56 INFO  : 'jtag frequency' command is executed.
+14:14:56 INFO  : Context for 'APU' is selected.
+14:14:56 INFO  : System reset is completed.
+14:14:59 INFO  : 'after 3000' command is executed.
+14:14:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+14:15:01 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+14:15:02 INFO  : Context for 'APU' is selected.
+14:15:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:15:02 INFO  : 'configparams force-mem-access 1' command is executed.
+14:15:02 INFO  : Context for 'APU' is selected.
+14:15:02 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+14:15:02 INFO  : 'ps7_init' command is executed.
+14:15:02 INFO  : 'ps7_post_config' command is executed.
+14:15:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:15:02 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:15:02 INFO  : 'configparams force-mem-access 0' command is executed.
+14:15:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:15:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:15:02 INFO  : 'con' command is executed.
+14:15:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:15:02 INFO  : Disconnected from the channel tcfchan#10.
+14:19:19 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:19:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351BA1D53A' is selected.
+14:19:36 INFO  : 'jtag frequency' command is executed.
+14:19:38 INFO  : Context for 'APU' is selected.
+14:19:38 INFO  : System reset is completed.
+14:19:41 INFO  : 'after 3000' command is executed.
+14:19:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}' command is executed.
+14:19:46 INFO  : Device configured successfully with "C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+14:19:46 INFO  : Context for 'APU' is selected.
+14:19:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:19:46 INFO  : 'configparams force-mem-access 1' command is executed.
+14:19:46 INFO  : Context for 'APU' is selected.
+14:19:46 INFO  : Sourcing of 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+14:19:46 INFO  : 'ps7_init' command is executed.
+14:19:46 INFO  : 'ps7_post_config' command is executed.
+14:19:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:19:46 INFO  : The application 'C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:19:46 INFO  : 'configparams force-mem-access 0' command is executed.
+14:19:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BA1D53A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BA1D53A-23727093-0"}
+fpga -file C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/junoh/vivado23/DSD25_Termprj/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:19:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:19:46 INFO  : 'con' command is executed.
+14:19:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:19:46 INFO  : Disconnected from the channel tcfchan#11.
+19:23:49 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+19:23:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+19:23:56 INFO  : XSCT server has started successfully.
+19:23:56 INFO  : plnx-install-location is set to ''
+19:23:56 INFO  : Successfully done setting XSCT server connection channel  
+19:23:56 INFO  : Successfully done setting workspace for the tool. 
+19:24:05 INFO  : Registering command handlers for Vitis TCF services
+19:24:06 INFO  : Successfully done query RDI_DATADIR 
+19:24:07 INFO  : Platform repository initialization has completed.
+19:28:16 INFO  : Result from executing command 'getProjects': design_1_wrapper
+19:28:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:28:19 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+19:28:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:28:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+19:28:58 INFO  : 'jtag frequency' command is executed.
+19:28:58 INFO  : Context for 'APU' is selected.
+19:28:58 INFO  : System reset is completed.
+19:29:01 INFO  : 'after 3000' command is executed.
+19:29:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+19:29:03 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+19:29:03 INFO  : Context for 'APU' is selected.
+19:29:03 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:29:03 INFO  : 'configparams force-mem-access 1' command is executed.
+19:29:04 INFO  : Context for 'APU' is selected.
+19:29:04 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+19:29:04 INFO  : 'ps7_init' command is executed.
+19:29:04 INFO  : 'ps7_post_config' command is executed.
+19:29:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:29:04 ERROR : Cannot halt processor core, timeout
+19:29:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+----------------End of Script----------------
+
+19:29:04 ERROR : Cannot halt processor core, timeout
+19:29:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:29:19 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+19:29:19 INFO  : 'jtag frequency' command is executed.
+19:29:19 INFO  : Context for 'APU' is selected.
+19:29:19 INFO  : System reset is completed.
+19:29:22 INFO  : 'after 3000' command is executed.
+19:29:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+19:29:25 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+19:29:25 INFO  : Context for 'APU' is selected.
+19:29:25 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+19:29:25 INFO  : 'configparams force-mem-access 1' command is executed.
+19:29:25 INFO  : Context for 'APU' is selected.
+19:29:25 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+19:29:25 INFO  : 'ps7_init' command is executed.
+19:29:25 INFO  : 'ps7_post_config' command is executed.
+19:29:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:29:25 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:29:25 INFO  : 'configparams force-mem-access 0' command is executed.
+19:29:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:29:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:29:25 INFO  : 'con' command is executed.
+19:29:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:29:25 INFO  : Disconnected from the channel tcfchan#2.
+19:30:58 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:06:30 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+00:06:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:06:35 INFO  : XSCT server has started successfully.
+00:06:35 INFO  : plnx-install-location is set to ''
+00:06:35 INFO  : Successfully done setting XSCT server connection channel  
+00:06:35 INFO  : Successfully done setting workspace for the tool. 
+00:06:36 INFO  : Registering command handlers for Vitis TCF services
+00:06:37 INFO  : Successfully done query RDI_DATADIR 
+00:06:38 INFO  : Platform repository initialization has completed.
+00:07:24 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:07:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:07:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+00:07:38 INFO  : 'jtag frequency' command is executed.
+00:07:38 INFO  : Context for 'APU' is selected.
+00:07:38 INFO  : System reset is completed.
+00:07:41 INFO  : 'after 3000' command is executed.
+00:07:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+00:07:43 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:07:43 INFO  : Context for 'APU' is selected.
+00:07:43 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:07:43 INFO  : 'configparams force-mem-access 1' command is executed.
+00:07:43 INFO  : Context for 'APU' is selected.
+00:07:43 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:07:44 INFO  : 'ps7_init' command is executed.
+00:07:44 INFO  : 'ps7_post_config' command is executed.
+00:07:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:07:44 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:07:44 INFO  : 'configparams force-mem-access 0' command is executed.
+00:07:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:07:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:07:44 INFO  : 'con' command is executed.
+00:07:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:07:44 INFO  : Disconnected from the channel tcfchan#1.
+00:09:16 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:26:42 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:27:16 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+00:27:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+00:27:24 INFO  : XSCT server has started successfully.
+00:27:24 INFO  : plnx-install-location is set to ''
+00:27:24 INFO  : Successfully done setting XSCT server connection channel  
+00:27:24 INFO  : Successfully done setting workspace for the tool. 
+00:27:24 INFO  : Registering command handlers for Vitis TCF services
+00:27:25 INFO  : Successfully done query RDI_DATADIR 
+00:27:26 INFO  : Platform repository initialization has completed.
+00:27:55 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:29:09 INFO  : Result from executing command 'removePlatformRepo': 
+00:29:33 INFO  : Result from executing command 'getProjects': design_1_wrapper
+00:29:33 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:29:35 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:29:58 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:30:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:30:09 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+00:30:09 INFO  : 'jtag frequency' command is executed.
+00:30:09 INFO  : Context for 'APU' is selected.
+00:30:09 INFO  : System reset is completed.
+00:30:12 INFO  : 'after 3000' command is executed.
+00:30:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+00:30:14 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:30:14 INFO  : Context for 'APU' is selected.
+00:30:14 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:30:14 INFO  : 'configparams force-mem-access 1' command is executed.
+00:30:14 INFO  : Context for 'APU' is selected.
+00:30:14 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:30:15 INFO  : 'ps7_init' command is executed.
+00:30:15 INFO  : 'ps7_post_config' command is executed.
+00:30:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:30:15 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:30:15 INFO  : 'configparams force-mem-access 0' command is executed.
+00:30:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:30:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:30:15 INFO  : 'con' command is executed.
+00:30:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:30:15 INFO  : Disconnected from the channel tcfchan#3.
+00:30:35 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+00:30:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:30:49 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+00:30:49 INFO  : 'jtag frequency' command is executed.
+00:30:49 INFO  : Context for 'APU' is selected.
+00:30:49 INFO  : System reset is completed.
+00:30:52 INFO  : 'after 3000' command is executed.
+00:30:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+00:30:54 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit"
+00:30:54 INFO  : Context for 'APU' is selected.
+00:30:54 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:30:54 INFO  : 'configparams force-mem-access 1' command is executed.
+00:30:54 INFO  : Context for 'APU' is selected.
+00:30:54 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+00:30:55 INFO  : 'ps7_init' command is executed.
+00:30:55 INFO  : 'ps7_post_config' command is executed.
+00:30:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:30:55 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:30:55 INFO  : 'configparams force-mem-access 0' command is executed.
+00:30:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:30:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:30:55 INFO  : 'con' command is executed.
+00:30:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:30:55 INFO  : Disconnected from the channel tcfchan#4.
+12:33:36 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+12:33:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+12:33:41 INFO  : XSCT server has started successfully.
+12:33:41 INFO  : Successfully done setting XSCT server connection channel  
+12:33:41 INFO  : plnx-install-location is set to ''
+12:33:41 INFO  : Successfully done setting workspace for the tool. 
+12:33:42 INFO  : Registering command handlers for Vitis TCF services
+12:33:43 INFO  : Successfully done query RDI_DATADIR 
+12:33:44 INFO  : Platform repository initialization has completed.
+12:35:14 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+12:35:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+12:35:19 INFO  : XSCT server has started successfully.
+12:35:19 INFO  : Successfully done setting XSCT server connection channel  
+12:35:19 INFO  : plnx-install-location is set to ''
+12:35:19 INFO  : Successfully done setting workspace for the tool. 
+12:35:22 INFO  : Registering command handlers for Vitis TCF services
+12:35:23 INFO  : Successfully done query RDI_DATADIR 
+12:35:24 INFO  : Platform repository initialization has completed.
+12:35:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
+12:35:42 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+12:35:44 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+12:39:08 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+12:39:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+12:39:13 INFO  : XSCT server has started successfully.
+12:39:13 INFO  : Successfully done setting XSCT server connection channel  
+12:39:13 INFO  : plnx-install-location is set to ''
+12:39:13 INFO  : Successfully done setting workspace for the tool. 
+12:39:14 INFO  : Registering command handlers for Vitis TCF services
+12:39:14 INFO  : Successfully done query RDI_DATADIR 
+12:39:15 INFO  : Platform repository initialization has completed.
+12:39:22 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+12:41:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+12:41:26 INFO  : 'jtag frequency' command is executed.
+12:41:26 INFO  : Context for 'APU' is selected.
+12:41:26 INFO  : System reset is completed.
+12:41:29 INFO  : 'after 3000' command is executed.
+12:41:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+12:41:32 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit"
+12:41:32 INFO  : Context for 'APU' is selected.
+12:41:32 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:41:32 INFO  : 'configparams force-mem-access 1' command is executed.
+12:41:32 INFO  : Context for 'APU' is selected.
+12:41:32 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+12:41:32 INFO  : 'ps7_init' command is executed.
+12:41:32 INFO  : 'ps7_post_config' command is executed.
+12:41:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:32 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:41:32 INFO  : 'configparams force-mem-access 0' command is executed.
+12:41:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:41:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:32 INFO  : 'con' command is executed.
+12:41:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:41:32 INFO  : Disconnected from the channel tcfchan#1.
+12:42:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:32 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+12:42:32 INFO  : 'jtag frequency' command is executed.
+12:42:32 INFO  : Context for 'APU' is selected.
+12:42:32 INFO  : System reset is completed.
+12:42:35 INFO  : 'after 3000' command is executed.
+12:42:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+12:42:37 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit"
+12:42:37 INFO  : Context for 'APU' is selected.
+12:42:40 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:42:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:42:40 INFO  : Context for 'APU' is selected.
+12:42:40 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+12:42:40 INFO  : 'ps7_init' command is executed.
+12:42:40 INFO  : 'ps7_post_config' command is executed.
+12:42:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:40 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:42:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:42:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:42:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:40 INFO  : 'con' command is executed.
+12:42:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:42:40 INFO  : Disconnected from the channel tcfchan#2.
+12:50:31 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+12:50:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+12:50:35 INFO  : XSCT server has started successfully.
+12:50:35 INFO  : plnx-install-location is set to ''
+12:50:35 INFO  : Successfully done setting XSCT server connection channel  
+12:50:35 INFO  : Successfully done setting workspace for the tool. 
+12:50:37 INFO  : Registering command handlers for Vitis TCF services
+12:50:37 INFO  : Successfully done query RDI_DATADIR 
+12:50:38 INFO  : Platform repository initialization has completed.
+12:50:51 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+12:50:58 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+12:51:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+12:51:38 INFO  : 'jtag frequency' command is executed.
+12:51:38 INFO  : Context for 'APU' is selected.
+12:51:38 INFO  : System reset is completed.
+12:51:41 INFO  : 'after 3000' command is executed.
+12:51:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+12:51:44 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit"
+12:51:44 INFO  : Context for 'APU' is selected.
+12:51:44 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+12:51:44 INFO  : 'configparams force-mem-access 1' command is executed.
+12:51:44 INFO  : Context for 'APU' is selected.
+12:51:44 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+12:51:45 INFO  : 'ps7_init' command is executed.
+12:51:45 INFO  : 'ps7_post_config' command is executed.
+12:51:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:51:45 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:51:45 INFO  : 'configparams force-mem-access 0' command is executed.
+12:51:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:51:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:51:45 INFO  : 'con' command is executed.
+12:51:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:51:45 INFO  : Disconnected from the channel tcfchan#2.
+13:55:13 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+13:55:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+13:55:18 INFO  : XSCT server has started successfully.
+13:55:18 INFO  : Successfully done setting XSCT server connection channel  
+13:55:18 INFO  : plnx-install-location is set to ''
+13:55:18 INFO  : Successfully done setting workspace for the tool. 
+13:55:20 INFO  : Registering command handlers for Vitis TCF services
+13:55:20 INFO  : Successfully done query RDI_DATADIR 
+13:55:21 INFO  : Platform repository initialization has completed.
+13:55:27 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:55:42 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:56:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:56:49 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:57:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+13:57:02 INFO  : 'jtag frequency' command is executed.
+13:57:02 INFO  : Context for 'APU' is selected.
+13:57:02 INFO  : System reset is completed.
+13:57:05 INFO  : 'after 3000' command is executed.
+13:57:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+13:57:07 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit"
+13:57:07 INFO  : Context for 'APU' is selected.
+13:57:08 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:57:08 INFO  : 'configparams force-mem-access 1' command is executed.
+13:57:08 INFO  : Context for 'APU' is selected.
+13:57:08 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+13:57:08 INFO  : 'ps7_init' command is executed.
+13:57:08 INFO  : 'ps7_post_config' command is executed.
+13:57:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:57:08 ERROR : Cannot flush JTAG server queue. FT_Write failed: io error
+13:57:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+----------------End of Script----------------
+
+13:57:08 ERROR : Cannot flush JTAG server queue. FT_Write failed: io error
+13:57:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+13:57:51 INFO  : 'jtag frequency' command is executed.
+13:57:51 INFO  : Context for 'APU' is selected.
+13:57:51 INFO  : System reset is completed.
+13:57:54 INFO  : 'after 3000' command is executed.
+13:57:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+13:57:56 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit"
+13:57:56 INFO  : Context for 'APU' is selected.
+13:57:56 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:57:56 INFO  : 'configparams force-mem-access 1' command is executed.
+13:57:56 INFO  : Context for 'APU' is selected.
+13:57:56 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+13:57:57 INFO  : 'ps7_init' command is executed.
+13:57:57 INFO  : 'ps7_post_config' command is executed.
+13:57:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:57:57 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:57:57 INFO  : 'configparams force-mem-access 0' command is executed.
+13:57:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/new_bit_0.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:57:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:57:57 INFO  : 'con' command is executed.
+13:57:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:57:57 INFO  : Disconnected from the channel tcfchan#1.
+03:06:52 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+03:06:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+03:06:59 INFO  : XSCT server has started successfully.
+03:06:59 INFO  : plnx-install-location is set to ''
+03:06:59 INFO  : Successfully done setting XSCT server connection channel  
+03:06:59 INFO  : Successfully done setting workspace for the tool. 
+03:07:00 INFO  : Registering command handlers for Vitis TCF services
+03:07:01 INFO  : Successfully done query RDI_DATADIR 
+03:07:02 INFO  : Platform repository initialization has completed.
+03:07:28 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+03:08:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:08:21 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+03:08:21 INFO  : 'jtag frequency' command is executed.
+03:08:21 INFO  : Context for 'APU' is selected.
+03:08:21 INFO  : System reset is completed.
+03:08:24 INFO  : 'after 3000' command is executed.
+03:08:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+03:08:26 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.bit"
+03:08:27 INFO  : Context for 'APU' is selected.
+03:08:27 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+03:08:27 INFO  : 'configparams force-mem-access 1' command is executed.
+03:08:27 INFO  : Context for 'APU' is selected.
+03:08:27 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl' is done.
+03:08:27 INFO  : 'ps7_init' command is executed.
+03:08:27 INFO  : 'ps7_post_config' command is executed.
+03:08:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:08:27 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:08:28 INFO  : 'configparams force-mem-access 0' command is executed.
+03:08:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:08:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:08:28 INFO  : 'con' command is executed.
+03:08:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:08:28 INFO  : Disconnected from the channel tcfchan#1.
+03:09:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:09:10 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+03:09:10 INFO  : 'jtag frequency' command is executed.
+03:09:10 INFO  : Context for 'APU' is selected.
+03:09:10 INFO  : System reset is completed.
+03:09:13 INFO  : 'after 3000' command is executed.
+03:09:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+03:09:15 INFO  : Device configured successfully with "C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.bit"
+03:09:15 INFO  : Context for 'APU' is selected.
+03:09:15 INFO  : Hardware design and registers information is loaded from 'C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.xsa'.
+03:09:16 INFO  : 'configparams force-mem-access 1' command is executed.
+03:09:16 INFO  : Context for 'APU' is selected.
+03:09:16 INFO  : Sourcing of 'C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+03:09:16 INFO  : 'ps7_init' command is executed.
+03:09:16 INFO  : 'ps7_post_config' command is executed.
+03:09:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:16 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:09:16 INFO  : 'configparams force-mem-access 0' command is executed.
+03:09:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Temp/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:09:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:16 INFO  : 'con' command is executed.
+03:09:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:09:16 INFO  : Disconnected from the channel tcfchan#2.
+03:12:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:12:17 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+03:12:17 INFO  : 'jtag frequency' command is executed.
+03:12:17 INFO  : Context for 'APU' is selected.
+03:12:17 INFO  : System reset is completed.
+03:12:20 INFO  : 'after 3000' command is executed.
+03:12:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+03:12:23 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/z720_export.bit"
+03:12:23 INFO  : Context for 'APU' is selected.
+03:12:23 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/z720_export.xsa'.
+03:12:23 INFO  : 'configparams force-mem-access 1' command is executed.
+03:12:23 INFO  : Context for 'APU' is selected.
+03:12:23 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+03:12:24 INFO  : 'ps7_init' command is executed.
+03:12:24 INFO  : 'ps7_post_config' command is executed.
+03:12:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:12:24 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:12:24 INFO  : 'configparams force-mem-access 0' command is executed.
+03:12:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/z720_export.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/z720_export.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:12:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:12:24 INFO  : 'con' command is executed.
+03:12:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:12:24 INFO  : Disconnected from the channel tcfchan#3.
+03:42:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:42:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+03:42:51 INFO  : 'jtag frequency' command is executed.
+03:42:51 INFO  : Context for 'APU' is selected.
+03:42:51 INFO  : System reset is completed.
+03:42:54 INFO  : 'after 3000' command is executed.
+03:42:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+03:42:56 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit"
+03:42:57 INFO  : Context for 'APU' is selected.
+03:42:57 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa'.
+03:42:57 INFO  : 'configparams force-mem-access 1' command is executed.
+03:42:57 INFO  : Context for 'APU' is selected.
+03:42:57 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+03:42:57 INFO  : 'ps7_init' command is executed.
+03:42:57 INFO  : 'ps7_post_config' command is executed.
+03:42:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:42:58 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:42:58 INFO  : 'configparams force-mem-access 0' command is executed.
+03:42:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:42:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:42:58 INFO  : 'con' command is executed.
+03:42:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:42:58 INFO  : Disconnected from the channel tcfchan#4.
+03:45:07 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+03:45:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:45:29 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+03:45:29 INFO  : 'jtag frequency' command is executed.
+03:45:29 INFO  : Context for 'APU' is selected.
+03:45:29 INFO  : System reset is completed.
+03:45:32 INFO  : 'after 3000' command is executed.
+03:45:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+03:45:35 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit"
+03:45:35 INFO  : Context for 'APU' is selected.
+03:45:37 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa'.
+03:45:37 INFO  : 'configparams force-mem-access 1' command is executed.
+03:45:37 INFO  : Context for 'APU' is selected.
+03:45:37 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+03:45:38 INFO  : 'ps7_init' command is executed.
+03:45:38 INFO  : 'ps7_post_config' command is executed.
+03:45:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:45:38 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:45:38 INFO  : 'configparams force-mem-access 0' command is executed.
+03:45:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:45:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:45:38 INFO  : 'con' command is executed.
+03:45:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:45:38 INFO  : Disconnected from the channel tcfchan#5.
+13:36:11 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+13:36:12 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+13:36:16 INFO  : XSCT server has started successfully.
+13:36:16 INFO  : plnx-install-location is set to ''
+13:36:16 INFO  : Successfully done setting XSCT server connection channel  
+13:36:16 INFO  : Successfully done setting workspace for the tool. 
+13:36:16 INFO  : Registering command handlers for Vitis TCF services
+13:36:17 INFO  : Successfully done query RDI_DATADIR 
+13:36:18 INFO  : Platform repository initialization has completed.
+13:36:48 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:37:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:37:19 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+13:37:19 INFO  : 'jtag frequency' command is executed.
+13:37:19 INFO  : Context for 'APU' is selected.
+13:37:20 INFO  : System reset is completed.
+13:37:23 INFO  : 'after 3000' command is executed.
+13:37:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+13:37:25 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit"
+13:37:25 INFO  : Context for 'APU' is selected.
+13:37:25 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa'.
+13:37:25 INFO  : 'configparams force-mem-access 1' command is executed.
+13:37:25 INFO  : Context for 'APU' is selected.
+13:37:25 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+13:37:26 INFO  : 'ps7_init' command is executed.
+13:37:26 INFO  : 'ps7_post_config' command is executed.
+13:37:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:26 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:37:26 INFO  : 'configparams force-mem-access 0' command is executed.
+13:37:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:37:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:26 INFO  : 'con' command is executed.
+13:37:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:37:26 INFO  : Disconnected from the channel tcfchan#1.
+13:38:20 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+13:38:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:38:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+13:38:38 INFO  : 'jtag frequency' command is executed.
+13:38:38 INFO  : Context for 'APU' is selected.
+13:38:38 INFO  : System reset is completed.
+13:38:41 INFO  : 'after 3000' command is executed.
+13:38:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+13:38:44 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit"
+13:38:44 INFO  : Context for 'APU' is selected.
+13:38:44 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa'.
+13:38:44 INFO  : 'configparams force-mem-access 1' command is executed.
+13:38:44 INFO  : Context for 'APU' is selected.
+13:38:44 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+13:38:44 INFO  : 'ps7_init' command is executed.
+13:38:44 INFO  : 'ps7_post_config' command is executed.
+13:38:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:38:45 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:38:45 INFO  : 'configparams force-mem-access 0' command is executed.
+13:38:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_platform.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:38:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:38:45 INFO  : 'con' command is executed.
+13:38:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:38:45 INFO  : Disconnected from the channel tcfchan#2.
+14:04:07 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:04:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:04:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+14:04:47 INFO  : 'jtag frequency' command is executed.
+14:04:47 INFO  : Context for 'APU' is selected.
+14:04:47 INFO  : System reset is completed.
+14:04:50 INFO  : 'after 3000' command is executed.
+14:04:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+14:04:52 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.bit"
+14:04:53 INFO  : Context for 'APU' is selected.
+14:04:53 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.xsa'.
+14:04:53 INFO  : 'configparams force-mem-access 1' command is executed.
+14:04:53 INFO  : Context for 'APU' is selected.
+14:04:53 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+14:04:53 INFO  : 'ps7_init' command is executed.
+14:04:53 INFO  : 'ps7_post_config' command is executed.
+14:04:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:04:53 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:04:53 INFO  : 'configparams force-mem-access 0' command is executed.
+14:04:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:04:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:04:53 INFO  : 'con' command is executed.
+14:04:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:04:53 INFO  : Disconnected from the channel tcfchan#3.
+14:05:28 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:05:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:05:42 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+14:05:42 INFO  : 'jtag frequency' command is executed.
+14:05:42 INFO  : Context for 'APU' is selected.
+14:05:42 INFO  : System reset is completed.
+14:05:45 INFO  : 'after 3000' command is executed.
+14:05:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+14:05:48 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.bit"
+14:05:48 INFO  : Context for 'APU' is selected.
+14:05:48 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.xsa'.
+14:05:48 INFO  : 'configparams force-mem-access 1' command is executed.
+14:05:48 INFO  : Context for 'APU' is selected.
+14:05:48 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+14:05:48 INFO  : 'ps7_init' command is executed.
+14:05:48 INFO  : 'ps7_post_config' command is executed.
+14:05:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:05:49 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:05:49 INFO  : 'configparams force-mem-access 0' command is executed.
+14:05:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/miracle.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:05:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:05:49 INFO  : 'con' command is executed.
+14:05:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:05:49 INFO  : Disconnected from the channel tcfchan#4.
+14:44:01 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:44:14 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:44:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:44 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+14:44:44 INFO  : 'jtag frequency' command is executed.
+14:44:44 INFO  : Context for 'APU' is selected.
+14:44:44 INFO  : System reset is completed.
+14:44:47 INFO  : 'after 3000' command is executed.
+14:44:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+14:44:49 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.bit"
+14:44:49 INFO  : Context for 'APU' is selected.
+14:44:50 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.xsa'.
+14:44:50 INFO  : 'configparams force-mem-access 1' command is executed.
+14:44:50 INFO  : Context for 'APU' is selected.
+14:44:50 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+14:44:50 INFO  : 'ps7_init' command is executed.
+14:44:50 INFO  : 'ps7_post_config' command is executed.
+14:44:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:44:50 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:44:50 INFO  : 'configparams force-mem-access 0' command is executed.
+14:44:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:44:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:44:50 INFO  : 'con' command is executed.
+14:44:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:44:50 INFO  : Disconnected from the channel tcfchan#5.
+14:46:44 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+14:46:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:46:59 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+14:46:59 INFO  : 'jtag frequency' command is executed.
+14:46:59 INFO  : Context for 'APU' is selected.
+14:46:59 INFO  : System reset is completed.
+14:47:02 INFO  : 'after 3000' command is executed.
+14:47:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+14:47:04 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.bit"
+14:47:04 INFO  : Context for 'APU' is selected.
+14:47:04 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.xsa'.
+14:47:04 INFO  : 'configparams force-mem-access 1' command is executed.
+14:47:04 INFO  : Context for 'APU' is selected.
+14:47:04 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+14:47:05 INFO  : 'ps7_init' command is executed.
+14:47:05 INFO  : 'ps7_post_config' command is executed.
+14:47:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:05 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:47:05 INFO  : 'configparams force-mem-access 0' command is executed.
+14:47:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/mimiracle.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:47:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:05 INFO  : 'con' command is executed.
+14:47:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:47:05 INFO  : Disconnected from the channel tcfchan#6.
+15:29:34 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+15:29:43 INFO  : Result from executing command 'removePlatformRepo': 
+15:30:24 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:30:24 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:30:30 INFO  : Result from executing command 'removePlatformRepo': 
+15:31:12 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:31:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:31:13 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:31:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:31:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:31:47 INFO  : 'jtag frequency' command is executed.
+15:31:47 INFO  : Context for 'APU' is selected.
+15:31:47 INFO  : System reset is completed.
+15:31:50 INFO  : 'after 3000' command is executed.
+15:31:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:31:53 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:31:53 INFO  : Context for 'APU' is selected.
+15:31:53 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:31:53 INFO  : 'configparams force-mem-access 1' command is executed.
+15:31:53 INFO  : Context for 'APU' is selected.
+15:31:53 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:31:53 INFO  : 'ps7_init' command is executed.
+15:31:53 INFO  : 'ps7_post_config' command is executed.
+15:31:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:31:53 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:31:53 INFO  : 'configparams force-mem-access 0' command is executed.
+15:31:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:31:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:31:53 INFO  : 'con' command is executed.
+15:31:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:31:53 INFO  : Disconnected from the channel tcfchan#11.
+15:32:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:32:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:32:53 INFO  : 'jtag frequency' command is executed.
+15:32:53 INFO  : Context for 'APU' is selected.
+15:32:53 INFO  : System reset is completed.
+15:32:56 INFO  : 'after 3000' command is executed.
+15:32:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:32:59 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:32:59 INFO  : Context for 'APU' is selected.
+15:32:59 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:32:59 INFO  : 'configparams force-mem-access 1' command is executed.
+15:32:59 INFO  : Context for 'APU' is selected.
+15:32:59 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:32:59 INFO  : 'ps7_init' command is executed.
+15:32:59 INFO  : 'ps7_post_config' command is executed.
+15:32:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:32:59 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:32:59 INFO  : 'configparams force-mem-access 0' command is executed.
+15:32:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:32:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:32:59 INFO  : 'con' command is executed.
+15:32:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:32:59 INFO  : Disconnected from the channel tcfchan#12.
+15:33:19 INFO  : Result from executing command 'removePlatformRepo': 
+15:33:53 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:33:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:33:55 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:33:57 INFO  : The hardware specification used by project 'dsd_termprj' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:33:57 INFO  : The file 'D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\dsd_termprj\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+15:33:57 INFO  : The file 'D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\dsd_termprj\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+15:33:57 INFO  : The updated bitstream files are copied from platform to folder 'D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\dsd_termprj\_ide\bitstream' in project 'dsd_termprj'.
+15:33:57 INFO  : The file 'D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\dsd_termprj\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:34:04 INFO  : The updated ps init files are copied from platform to folder 'D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\dsd_termprj\_ide\psinit' in project 'dsd_termprj'.
+15:34:19 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:34:38 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:34:59 INFO  : Result from executing command 'removePlatformRepo': 
+15:35:28 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:35:28 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:35:31 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:35:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:35:50 INFO  : 'jtag frequency' command is executed.
+15:35:50 INFO  : Context for 'APU' is selected.
+15:35:50 INFO  : System reset is completed.
+15:35:53 INFO  : 'after 3000' command is executed.
+15:35:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:35:56 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:35:56 INFO  : Context for 'APU' is selected.
+15:35:56 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:35:56 INFO  : 'configparams force-mem-access 1' command is executed.
+15:35:56 INFO  : Context for 'APU' is selected.
+15:35:56 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:35:56 INFO  : 'ps7_init' command is executed.
+15:35:56 INFO  : 'ps7_post_config' command is executed.
+15:35:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:35:57 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:35:57 INFO  : 'configparams force-mem-access 0' command is executed.
+15:35:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:35:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:35:57 INFO  : 'con' command is executed.
+15:35:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:35:57 INFO  : Disconnected from the channel tcfchan#21.
+15:36:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:43 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:36:43 INFO  : 'jtag frequency' command is executed.
+15:36:43 INFO  : Context for 'APU' is selected.
+15:36:43 INFO  : System reset is completed.
+15:36:46 INFO  : 'after 3000' command is executed.
+15:36:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:36:49 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:36:49 INFO  : Context for 'APU' is selected.
+15:36:49 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:36:49 INFO  : 'configparams force-mem-access 1' command is executed.
+15:36:49 INFO  : Context for 'APU' is selected.
+15:36:49 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:36:49 INFO  : 'ps7_init' command is executed.
+15:36:49 INFO  : 'ps7_post_config' command is executed.
+15:36:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:36:50 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:36:50 INFO  : 'configparams force-mem-access 0' command is executed.
+15:36:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:36:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:36:50 INFO  : 'con' command is executed.
+15:36:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:36:50 INFO  : Disconnected from the channel tcfchan#22.
+15:37:25 DEBUG : Logs will be stored at 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/IDE.log'.
+15:37:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\workspace\temp_xsdb_launch_script.tcl
+15:37:29 INFO  : XSCT server has started successfully.
+15:37:29 INFO  : Successfully done setting XSCT server connection channel  
+15:37:29 INFO  : plnx-install-location is set to ''
+15:37:29 INFO  : Successfully done setting workspace for the tool. 
+15:37:31 INFO  : Registering command handlers for Vitis TCF services
+15:37:31 INFO  : Successfully done query RDI_DATADIR 
+15:37:32 INFO  : Platform repository initialization has completed.
+15:38:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:38:19 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:38:19 INFO  : 'jtag frequency' command is executed.
+15:38:19 INFO  : Context for 'APU' is selected.
+15:38:19 INFO  : System reset is completed.
+15:38:22 INFO  : 'after 3000' command is executed.
+15:38:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:38:25 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:38:25 INFO  : Context for 'APU' is selected.
+15:38:25 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:38:25 INFO  : 'configparams force-mem-access 1' command is executed.
+15:38:25 INFO  : Context for 'APU' is selected.
+15:38:25 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:38:25 INFO  : 'ps7_init' command is executed.
+15:38:25 INFO  : 'ps7_post_config' command is executed.
+15:38:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:25 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:38:25 INFO  : 'configparams force-mem-access 0' command is executed.
+15:38:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:38:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:25 INFO  : 'con' command is executed.
+15:38:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:38:25 INFO  : Disconnected from the channel tcfchan#1.
+15:39:10 INFO  : Result from executing command 'removePlatformRepo': 
+15:39:45 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:39:45 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:39:47 INFO  : Checking for BSP changes to sync application flags for project 'dsd_termprj'...
+15:40:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:40:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+15:40:26 INFO  : 'jtag frequency' command is executed.
+15:40:26 INFO  : Context for 'APU' is selected.
+15:40:26 INFO  : System reset is completed.
+15:40:29 INFO  : 'after 3000' command is executed.
+15:40:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+15:40:32 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+15:40:32 INFO  : Context for 'APU' is selected.
+15:40:34 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+15:40:34 INFO  : 'configparams force-mem-access 1' command is executed.
+15:40:34 INFO  : Context for 'APU' is selected.
+15:40:34 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+15:40:34 INFO  : 'ps7_init' command is executed.
+15:40:34 INFO  : 'ps7_post_config' command is executed.
+15:40:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:40:34 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:40:34 INFO  : 'configparams force-mem-access 0' command is executed.
+15:40:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:40:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:40:34 INFO  : 'con' command is executed.
+15:40:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:40:34 INFO  : Disconnected from the channel tcfchan#4.
+16:17:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:14 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+16:17:14 INFO  : 'jtag frequency' command is executed.
+16:17:14 INFO  : Context for 'APU' is selected.
+16:17:14 INFO  : System reset is completed.
+16:17:17 INFO  : 'after 3000' command is executed.
+16:17:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+16:17:20 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+16:17:20 INFO  : Context for 'APU' is selected.
+16:17:20 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+16:17:20 INFO  : 'configparams force-mem-access 1' command is executed.
+16:17:20 INFO  : Context for 'APU' is selected.
+16:17:20 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+16:17:20 INFO  : 'ps7_init' command is executed.
+16:17:20 INFO  : 'ps7_post_config' command is executed.
+16:17:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:17:20 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:17:20 INFO  : 'configparams force-mem-access 0' command is executed.
+16:17:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:17:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:17:20 INFO  : 'con' command is executed.
+16:17:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:17:20 INFO  : Disconnected from the channel tcfchan#5.
+17:02:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:02:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BBDFA' is selected.
+17:02:16 INFO  : 'jtag frequency' command is executed.
+17:02:16 INFO  : Context for 'APU' is selected.
+17:02:16 INFO  : System reset is completed.
+17:02:19 INFO  : 'after 3000' command is executed.
+17:02:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}' command is executed.
+17:02:22 INFO  : Device configured successfully with "D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit"
+17:02:22 INFO  : Context for 'APU' is selected.
+17:02:22 INFO  : Hardware design and registers information is loaded from 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa'.
+17:02:22 INFO  : 'configparams force-mem-access 1' command is executed.
+17:02:22 INFO  : Context for 'APU' is selected.
+17:02:22 INFO  : Sourcing of 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl' is done.
+17:02:23 INFO  : 'ps7_init' command is executed.
+17:02:23 INFO  : 'ps7_post_config' command is executed.
+17:02:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:02:23 INFO  : The application 'D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:02:23 INFO  : 'configparams force-mem-access 0' command is executed.
+17:02:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BBDFA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BBDFA-23727093-0"}
+fpga -file D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/final_demo_mak.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/dsd_termprj/Debug/dsd_termprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:02:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:02:23 INFO  : 'con' command is executed.
+17:02:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:02:23 INFO  : Disconnected from the channel tcfchan#6.

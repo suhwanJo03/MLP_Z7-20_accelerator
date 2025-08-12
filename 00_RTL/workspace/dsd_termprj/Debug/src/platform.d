@@ -1,0 +1,13 @@
+src/platform.o src/platform.o: ../src/platform.c \
+ D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h \
+ D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h \
+ D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_cache.h \
+ D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h \
+ D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h \
+ ../src/platform_config.h
+D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h:
+D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h:
+D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_cache.h:
+D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h:
+D:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h:
+../src/platform_config.h:

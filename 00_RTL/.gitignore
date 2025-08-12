@@ -1,0 +1,25 @@
+# dsd_termprj 폴더 안의 모든 파일/폴더 무시
+dsd_termprj/**
+
+# dsd_termprj 폴더 자체는 포함
+!dsd_termprj/
+
+# 예외적으로 포함할 항목들
+!dsd_termprj/*.xpr
+!dsd_termprj/dsd_termprj.srcs/
+!dsd_termprj/dsd_termprj.srcs/**
+!dsd_termprj/workspace/
+!dsd_termprj/workspace/**
+!dsd_termprj/ip_user_files/
+!dsd_termprj/ip_user_files/**
+
+# Vivado 자동 생성 폴더 무시
+*.jou
+*.log
+*.str
+.runs/
+.cache/
+.hw/
+.gen/
+.Xil/
+webtalk/
