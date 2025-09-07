@@ -198,6 +198,10 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
 | Debugging         | FSM synchronization bug fixed via ILA |
 | Optimization      | PU allocation proportional to workload → minimized bottlenecks |
 
+### 🔹 Per-Layer Computation Time
+**📷 per-layer latency across 10 frames:**  
+![Computation Time](docs/computation_time.png)
+
 ---
 
 ## 8. References
