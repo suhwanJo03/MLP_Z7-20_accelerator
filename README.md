@@ -67,7 +67,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
 
 - **Block Diagram**:
 
-  ![Block Diagram](docs/block_diagram.png)`
+  ![Block Diagram](docs/block_diagram.png)
 
 ---
 
@@ -122,7 +122,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - Final results stored in buffer  
 - **Layer 1 Dataflow**:
   
-  ![Layer 1 Dataflow](docs/layer1_dataflow.png)`
+  ![Layer 1 Dataflow](docs/layer1_dataflow.png)
 
 ---
 
@@ -136,7 +136,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
 
 **📷 Layer 2–4 Dataflow:**  
 
-  ![Layer 2–4 Dataflow](docs/layer2-4_dataflow.png)`
+  ![Layer 2–4 Dataflow](docs/layer2-4_dataflow.png)
 
 #### ▪ Layer 2: 64 × 256  
 - Operations: 16,384 MAC  
