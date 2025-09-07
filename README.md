@@ -45,8 +45,8 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - Layer 3: 256 → 128 neurons  
 - **Output Layer**: 10 neurons (digit classification logits)  
 
-**📷 Model Structure Illustration:**  
-![MLP Model Structure](docs/mlp_model.png)
+**📷 Model Structure:**  
+  ![MLP Model Structure](docs/mlp_model.png)
 
 ### 🔹 Final Demo
 - **Setup**:  
@@ -64,7 +64,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   3. **Output**: 10 logits for classification  
   4. **Control**: Global FSM synchronizes local FSMs per layer  
 
-- **Block Diagram Placeholder**:  
+- **Block Diagram**:  
   ![Block Diagram](docs/block_diagram.png)`
 
 ---
@@ -132,7 +132,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - Valid/Ready handshake ensures synchronized pipeline  
 
 **📷 Layer 2–4 Dataflow:**  
-![Layer 2–4 Dataflow](docs/layer2-4_dataflow.png)`
+  ![Layer 2–4 Dataflow](docs/layer2-4_dataflow.png)`
 
 #### ▪ Layer 2: 64 × 256  
 - Operations: 16,384 MAC  
@@ -161,7 +161,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - Final demo additionally uses **UART** for a 10-frame live showcase  
 
 **📷 Final Demo Environment:**  
-`![Demo Environment](docs/final_demo.png)
+  ![Demo Environment](docs/final_demo.png)
 
 ---
 
