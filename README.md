@@ -118,7 +118,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - 98 DSPs used for parallel MAC computation  
   - Partial sums merged via **Adder Tree**  
   - Final results stored in buffer  
-- **Illustration Placeholder**:  
+- **Layer 1 Dataflow**:  
   `![Layer 1 Dataflow](docs/layer1_dataflow.png)`
 
 ---
@@ -131,8 +131,8 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
   - Identical dataflow architecture across all three layers  
   - Valid/Ready handshake ensures synchronized pipeline  
 
-**📷 Illustration Placeholder:**  
-`![Layer 2–4 Dataflow](docs/layer2_4_dataflow.png)`
+**📷 Layer 2–4 Dataflow:**  
+`![Layer 2–4 Dataflow](docs/layer2-4_dataflow.png)`
 
 #### ▪ Layer 2: 64 × 256  
 - Operations: 16,384 MAC  
