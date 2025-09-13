@@ -191,7 +191,7 @@ Flattened Input (784) → FC1 (64) → FC2 (256) → FC3 (128) → FC4 (10)
 | Metric            | Result |
 |-------------------|--------|
 | Total Latency     | 1756 cycles |
-| Throughput        | ~71,206 samples/sec (at 125 MHz) |
+| Throughput        | ~214,000 samples/sec (at 125 MHz) |
 | DSP Utilization   | 204 / 220 (92.27%) |
 | Accuracy          | RTL outputs matched **MATLAB reference** |
 | Demo              | **10-frame UART** showcase with per-frame softmax/top-1 |
